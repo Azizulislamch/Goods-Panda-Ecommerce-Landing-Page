@@ -282,4 +282,23 @@ p {
 
 
 
-/* Responsive Design */
+/* ===== Responsive Design ===== */
+
+/* Laptop Device (max-width: 1200px) */
+@media screen and (max-width: 1200px) {
+    body {
+        padding: 0 80px;
+    }
+
+    .hero-left h1 {
+        font-size: 40px;
+    }
+
+    .hero-left p {
+        margin-right: 20px;
+    }
+
+    .price {
+        font-size: 32px;
+    }
+}

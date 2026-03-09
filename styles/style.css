@@ -215,3 +215,61 @@ p {
 .card-btn:hover {
     background: #515151;
 }
+
+
+/* Newsletter Section */
+.news-section {
+    background: rgb(255, 242, 241);
+    text-align: center;
+    padding: 146px 246px;
+    margin-bottom: 75px;
+}
+
+.headline {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    color: #1F1F1F;
+    margin-bottom: 4px;
+}
+
+.subtext {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 16px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.subscribe input {
+    padding: 22px 0px 15px 35px;
+    background: #FFFFFF;
+    color: #CCCCCC;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.btn {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    background: rgb(255, 88, 155);
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 21px 47px 16px 48px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(181, 30, 90);
+}

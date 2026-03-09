@@ -20,6 +20,14 @@ p {
     font-family: Inter;
 }
 
+.title {
+    font-size: 36px;
+    color: #1F1F1F;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
 
 /* Top-bar */
 .container-nav {
@@ -89,17 +97,10 @@ p {
 }
 
 
-/* Categories Section */
-.categories {
-    margin-bottom: 98px;
-}
 
-.title {
-    font-size: 36px;
-    color: #1F1F1F;
-    font-family: Poppins;
-    font-weight: 600;
-    margin-bottom: 24px;
+/* Categories Section */
+.categories-section {
+    margin-bottom: 98px;
 }
 
 .cate-container {
@@ -144,5 +145,5 @@ p {
 }
 
 .shoes:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }

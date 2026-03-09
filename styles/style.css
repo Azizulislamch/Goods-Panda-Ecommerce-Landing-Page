@@ -18,10 +18,7 @@ h1, h2, h3, h4 {
 
 p {
     font-family: Inter;
-    font-size: 16px;
-    font-weight: normal;
 }
-
 
 
 /* Top-bar */
@@ -29,9 +26,65 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: auto;
     margin-top: 31px;
+    margin-bottom: 49px;
 }
 
 .icon {
     cursor: pointer;
 }
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    background: #FEEAE9;
+    padding: 38px 49px 39px 53px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.hero-left h1 {
+    color: #1F1F1F;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero-left p {
+    color: #4E4E4E;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 104px;
+    margin-bottom: 8px;
+}
+
+.price {
+    color: #FF136F;
+    font-size: 41px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.hero-btn {
+    background: #FF136F;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: auto;
+    padding: 14px 45px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: #b20d4c;
+}
+

@@ -248,14 +248,19 @@ p {
 }
 
 .subscribe input {
-    padding: 22px 0px 15px 35px;
+    width: 70%;
+    padding: 21px 0px 16px 35px;
     background: #FFFFFF;
-    color: #CCCCCC;
+    color: #1F1F1F;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
     border: none;
     border-radius: 8px 0 0 8px;
+}
+
+.subscribe input::placeholder {
+    color: #CCCCCC;
 }
 
 .btn {

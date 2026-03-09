@@ -88,3 +88,61 @@ p {
     background: #b20d4c;
 }
 
+
+/* Categories Section */
+.categories {
+    margin-bottom: 98px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F1F1F;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.cate-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.watch, .bag, .shoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.watch {
+    background: #FF9C35;
+}
+
+.watch:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.bag {
+    background: #FF136F;
+}
+
+.bag:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.shoes {
+    background: #3F07F8;
+}
+
+.shoes:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}

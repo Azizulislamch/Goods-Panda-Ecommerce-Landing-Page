@@ -343,3 +343,51 @@ p {
         font-size: 18px;
     }
 }
+
+
+/* Mobile Device (max-width: 640px) */
+@media screen and (max-width: 640px) {
+    body {
+        padding: 0 15px;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero-left p {
+        margin-right: 0;
+    }
+
+    .watch, .bag, .shoes {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe input {
+        width: 100%;
+        border-radius: 8px; 
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        width: 100%;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+}

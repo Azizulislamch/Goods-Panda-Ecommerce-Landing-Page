@@ -302,3 +302,44 @@ p {
         font-size: 32px;
     }
 }
+
+
+
+/* Tablet Device (max-width: 992px) */
+@media screen and (max-width: 992px) {
+    body{
+        padding:0 50px;
+    }
+
+    .hero-section{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .cate-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shoes-container, .bag-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .news-section {
+        padding: 80px 40px;
+    }
+
+    .subscribe input {
+        width: 60%;
+        font-size: 18px;
+    }
+    
+    .btn {
+        font-size: 18px;
+    }
+}

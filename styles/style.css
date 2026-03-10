@@ -308,7 +308,7 @@ p {
 /* Tablet Device (max-width: 992px) */
 @media screen and (max-width: 992px) {
     body{
-        padding:0 50px;
+        padding:0 30px;
     }
 
     .hero-section{

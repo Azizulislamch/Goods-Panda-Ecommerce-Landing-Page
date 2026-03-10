@@ -391,3 +391,15 @@ p {
         text-align: center;
     }
 }
+
+
+/* Extra Small Devices (up to 320px) */
+@media screen and (max-width: 320px) {
+    .hero-left h1 {
+        font-size: 28px;
+    }
+    
+    .card-title {
+        font-size: 20px;
+    }
+}
